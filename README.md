@@ -1,2 +1,2 @@
-# bash
-linux debian bashscripts
+# config-linux
+configuration of debian-based linux
