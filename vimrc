@@ -1,0 +1,9 @@
+set number
+set ai
+set si
+set cindent
+set shiftwidth=4
+set tabstop=4
+filetype on
+syntax on
+colorscheme jellybeans
