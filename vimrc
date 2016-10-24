@@ -1,9 +1,9 @@
-set number
+set nu
 set ai
 set si
-set cindent
-set shiftwidth=4
-set tabstop=4
+set ci
+set sw=4
+set ts=4
 filetype on
 syntax on
 colorscheme jellybeans
