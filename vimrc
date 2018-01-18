@@ -4,6 +4,8 @@ set si
 set ci
 set sw=4
 set ts=4
+set paste
+set laststatus=2
 filetype on
 syntax on
 colorscheme jellybeans
