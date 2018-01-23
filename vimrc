@@ -1,11 +1,14 @@
-set nu
-set ai
-set si
-set ci
-set sw=4
-set ts=4
-set paste
-set laststatus=2
-filetype on
 syntax on
+if has("autocmd")
+  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "n    ormal! g'\"" | endif
+endif
+
+set viminfo='20,<1000
+
+filetype plugin indent on
+set hlsearch
+set number
+set ts=4
+set sw=4
+set expandtab
 colorscheme jellybeans
